@@ -1,0 +1,22 @@
+Question: Rotate Matrix
+
+Given an NxN matrix, write a function called rotateMatrix that rotates the
+    matrix 90 degrees. Use any language.
+
+EX:
+
+1 2 3         7 4 1
+4 5 6    =>   8 5 2
+7 8 9         9 6 3
+Before        After
+
+
+
+Hints:
+
+1) Try thinking about it layer by layer. Can you rotate a specific layer?
+2) Can you solve this without copying any part of the matrix?
+
+Please upload your solution to this GitHub folder.
+
+NO CHEATING!!!! :)
