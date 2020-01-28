@@ -1,0 +1,13 @@
+You are given a number N and a pattern. The pattern consists of lowercase latin letters and one operation "+" or "-". The challenge is to split the number and evaluate it according to this pattern e.g.
+
+1232 ab+cd -> a:1, b:2, c:3, d:2 -> 12+32 -> 44
+
+Your program should read a String from standard input. Each String contains the number and the pattern separated by a single whitespace. The number will be in range [100, 1000000000]
+
+
+Ex:
+findAns("1232 ab+cd)  		=> 44
+findAns("1234 ab-cd")		=> -22
+findAns("1203 ab+cd")		=> 15
+findAns("34097 ee+aacdb")	=> 33,171
+findAns("6785493 abc-adf") 	=> 19
