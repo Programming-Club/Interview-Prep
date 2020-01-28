@@ -3,7 +3,6 @@ def patternEval(string:str):
     splitted = string.split(" ")
     numbers = splitted[0]
     pattern = splitted[1]
-    cleanPattern = pattern.replace('+', "").replace('-', "")
     map = {}
     for i in range(0, len(numbers)):
         map[characters[i]] = numbers[i]
