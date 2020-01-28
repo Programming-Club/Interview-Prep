@@ -6,7 +6,7 @@ Your program should read a String from standard input. Each String contains the 
 
 
 Ex:
-findAns("1232 ab+cd)  		=> 44
+findAns("1232 ab+cd")  		=> 44
 findAns("1234 ab-cd")		=> -22
 findAns("1203 ab+cd")		=> 15
 findAns("34097 ee+aacdb")	=> 33,171
