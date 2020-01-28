@@ -9,5 +9,5 @@ Ex:
 findAns("1232 ab+cd")  		=> 44
 findAns("1234 ab-cd")		=> -22
 findAns("1203 ab+cd")		=> 15
-findAns("34097 ee+aacdb")	=> 33,171
-findAns("6785493 abc-adf") 	=> 19
+findAns("34097 aa+bbcde")	=> 44,130
+findAns("6785493 abc-ade") 	=> 24
