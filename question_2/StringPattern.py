@@ -23,6 +23,8 @@ class StringPatterns(unittest.TestCase):
         self.assertEqual(patternEval("1203 ab+cd"), 15)
         self.assertEqual(patternEval("34097 aa+bbcde"), 44130)
         self.assertEqual(patternEval("6785493 abc-ade"), 24)
+        self.assertEqual(patternEval("6785493 abc-adf"), 19)
+        self.assertEqual(patternEval("34097 ee+aacdb"), 33171)
 def main():
     unittest.main()
 main()
