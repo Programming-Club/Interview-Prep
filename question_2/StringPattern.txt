@@ -11,3 +11,10 @@ findAns("1234 ab-cd")		=> -22
 findAns("1203 ab+cd")		=> 15
 findAns("34097 aa+bbcde")	=> 44,130
 findAns("6785493 abc-ade") 	=> 24
+
+
+Extra challange:  The same rules above apply, but with one twist. The pattern is now out of order:
+
+EX: 
+findAns("6785493 abc-adf") 	=> 19		-> a:6, b:7, c:8:, d:5, e:4, f:9, g:3 -> 678-659 -> 19
+findAns("34097 ee+aacdb")	=> 33,171	-> a:3, b:4, c:0, d:9, e:7 -> 77+33094 -> 33,171
